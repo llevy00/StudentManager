@@ -6,6 +6,7 @@ string name = "";
 void student::setName(string& first, string& last)
 {
     name.append(first);
+    name.append(" ");
     name.append(last);
 }
 
